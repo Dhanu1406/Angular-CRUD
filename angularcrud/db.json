@@ -1,0 +1,41 @@
+{
+  "productList": [
+    {
+      "productName": "vivo",
+      "category": "Fruits",
+      "date": "2023-10-27T07:00:00.000Z",
+      "freshness": "Brand New",
+      "price": 654,
+      "Comment": "kkijwis",
+      "id": 2
+    },
+    {
+      "productName": "Samsung",
+      "category": "Electronics",
+      "date": "2023-10-28T07:00:00.000Z",
+      "freshness": "Brand New",
+      "price": 20000,
+      "Comment": "New Product",
+      "id": 4
+    },
+    {
+      "productName": "samsung",
+      "category": "Electronics",
+      "date": "2023-10-30T07:00:00.000Z",
+      "freshness": "Brand New",
+      "price": 452,
+      "Comment": "ytjtf",
+      "id": 5
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

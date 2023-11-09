@@ -1,0 +1,16 @@
+
+<mat-toolbar color="primary">
+  <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+    <mat-icon>supervised_user_circle</mat-icon>
+  </button>
+  <span>AngularCrud using material UI</span>
+ 
+  <button style="margin-right: 10px;" mat-raised-button color="primary" routerLink="/home" >home</button>
+  <button style="margin-right: 10px;" mat-raised-button color="primary"routerLink="/about" >about</button>
+  <span class="example-spacer"></span>
+  <button style="margin-right: 10px;" mat-raised-button color="warn" (click)="openLogDialog()">Login</button>
+  <button mat-raised-button color="warn" (click)="openDialog()" [disabled]="!correct">Add Product</button> 
+</mat-toolbar>
+<router-outlet></router-outlet>
+
+
